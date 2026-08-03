@@ -9,3 +9,7 @@ Creating modern, user-friendly designs with clean layouts, smooth interactions, 
 
 AI-Based Tools & Automation
 Integrating intelligent features like chatbots, analytics, recommendation engines, and workflow automation.
+
+
+
+  A passionate AI/ML enthusiast building intelligent systems and exploring Web3 innovation.|| Team Lead Team ILM Tech
