@@ -11,5 +11,7 @@ AI-Based Tools & Automation
 Integrating intelligent features like chatbots, analytics, recommendation engines, and workflow automation.
 
 
+As the Founder & Team Lead of Team ILM Tech, I've led and collaborated on multiple AI-driven and full-stack projects, pushing boundaries across web development, machine learning, and intelligent automation.
 
+Full Stack Develo
   A passionate AI/ML enthusiast building intelligent systems and exploring Web3 innovation.|| Team Lead Team ILM Tech
