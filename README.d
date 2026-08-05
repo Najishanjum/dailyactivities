@@ -15,3 +15,6 @@ As the Founder & Team Lead of Team ILM Tech, I've led and collaborated on multip
 
 Full Stack Develo
   A passionate AI/ML enthusiast building intelligent systems and exploring Web3 innovation.|| Team Lead Team ILM Tech
+
+
+  I've been recognized as a Galactic Problem Solver at the NASA Space Apps Challenge, and I've competed in Paranox 2.0, Hack with UttarPradesh, CBIT Hacktoberfest, KodeKalesh, Techclasher and Pixel Riot
