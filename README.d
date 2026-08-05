@@ -18,3 +18,8 @@ Full Stack Develo
 
 
   I've been recognized as a Galactic Problem Solver at the NASA Space Apps Challenge, and I've competed in Paranox 2.0, Hack with UttarPradesh, CBIT Hacktoberfest, KodeKalesh, Techclasher and Pixel Riot
+
+
+Next, I’m focused on building more real-world products around AI/ML, full-stack development, Gen AI systems, and intelligent automation. I’m also exploring the intersection of AI, Web3, and intelligent systems while continuing to grow Team ILM Tech. 
+
+  
