@@ -64,4 +64,11 @@ Show me your resume
 
 Ask me anything about my projects, my stack,
 
-or the hackathons I've built at.  
+or the hackathons I've built at. 
+
+
+
+
+our
+Credentials
+Fortified  
