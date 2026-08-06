@@ -72,3 +72,12 @@ or the hackathons I've built at.
 our
 Credentials
 Fortified  
+
+
+
+A developer-focused password vault with zero-knowledge architecture. Store, manage, and access your credentials with the security you deserve.
+
+
+
+
+  
