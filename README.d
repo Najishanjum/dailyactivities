@@ -22,4 +22,29 @@ Full Stack Develo
 
 Next, I’m focused on building more real-world products around AI/ML, full-stack development, Gen AI systems, and intelligent automation. I’m also exploring the intersection of AI, Web3, and intelligent systems while continuing to grow Team ILM Tech. 
 
+  Team Lead
+Team ILM Tech· Full-time
+
+Sep 2025 – Present
+(3 mos)
+Jabalpur, Madhya Pradesh, India
+Team ILM Tech - 1
+Ajinava Edge
+Co-Founder
+Ajinava Edge· Full-time
+
+Sep 2025 – Present
+India
+E-Cell IIT Bombay
+E-Summit 2025 Attendee
+E-Cell IIT Bombay· Conference
+
+11th - 14th Dec 2025
+(4 days)
+IIT Bombay, Mumbai
+Deciphering the Labyrinth of Entrepreneurship – Exposure to global business leaders, startup founders, and innovation-driven discussions shaping the future of entrepreneurship.
+
+Entrepreneurship
+Networking
+Innovation
   
