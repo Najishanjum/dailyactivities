@@ -47,4 +47,16 @@ Deciphering the Labyrinth of Entrepreneurship – Exposure to global business le
 Entrepreneurship
 Networking
 Innovation
+
+
+
+  Ask me anything about my projects, my stack,
+
+or the hackathons I've built at.
+
+Who are you?
+Tell me about Space HabitatX
+What's your tech stack?
+What hackathons have you done?
+Show me your resume
   
