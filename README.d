@@ -84,5 +84,23 @@ A developer-focused password vault with zero-knowledge architecture. Store, mana
 Repository:
 
 
+Hey 
+@X
+ algorithm, do your thing 👀
 
+I’m at 278 followers right now.
+
+Can we hit 300 today? 🚀
+Surprise me.
+
+Connect me with people into:
+
+🎨 Frontend
+🧠 Backend
+🤖 AI
+☁️ AWS
+⚛️ React
+✨ Full-Stack
+
+Builders, engineers, tech people — say hi 👋
   
