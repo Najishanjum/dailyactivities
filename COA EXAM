@@ -1,0 +1,98 @@
+A multiprocessor system is a computer system that contains two or more processors (CPUs) that work together and share common resources such as main memory, I/O devices, and system buses.
+
+The main purpose is to increase processing speed, reliability, and overall system performance.
+
+6
+Basic Diagram
+              ┌─────────────┐
+              │   CPU 1     │
+              └──────┬──────┘
+                     │
+              ┌──────┴──────┐
+              │ System Bus  │
+              └──────┬──────┘
+               ┌─────┴─────┐
+               │           │
+        ┌──────▼─────┐ ┌───▼────────┐
+        │   CPU 2    │ │   CPU 3    │
+        └─────────────┘ └────────────┘
+               │
+        ┌──────▼──────────┐
+        │  Shared Memory  │
+        │      (RAM)      │
+        └──────┬──────────┘
+               │
+        ┌──────▼──────────┐
+        │   I/O Devices   │
+        └─────────────────┘
+How Does It Work?
+
+In a multiprocessor system:
+
+Multiple CPUs are connected to the same computer system.
+They can access shared memory and I/O devices.
+A task can be divided into smaller parts.
+Different processors execute different parts simultaneously.
+The results are combined to complete the overall task.
+
+For example, if a large task has four independent parts:
+
+             Large Task
+                 │
+       ┌─────────┼─────────┐
+       ↓         ↓         ↓
+     CPU 1     CPU 2     CPU 3     CPU 4
+       │         │         │         │
+       └─────────┴─────────┴─────────┘
+                    ↓
+              Final Result
+Types of Multiprocessor Systems
+1. Symmetric Multiprocessing (SMP)
+
+In SMP, all processors have equal status and can perform operating-system and application tasks.
+
+CPU 1 ──┐
+CPU 2 ──┤
+CPU 3 ──┼──→ Shared Memory
+CPU 4 ──┘
+
+Features:
+
+All processors are treated equally.
+Shared memory is used.
+Better workload distribution.
+2. Asymmetric Multiprocessing (AMP)
+
+In AMP, processors have different roles.
+
+One processor may act as the master, while other processors perform specific tasks.
+
+          Master CPU
+              │
+       ┌──────┼──────┐
+       ↓      ↓      ↓
+     CPU 2   CPU 3   CPU 4
+Advantages
+Higher performance — multiple processors can execute tasks simultaneously.
+Increased reliability — failure of one processor may not stop the entire system.
+Resource sharing — processors can share memory and I/O devices.
+Parallel processing — large tasks can be divided among processors.
+Better throughput — more tasks can be completed in a given period.
+Disadvantages
+High cost — requires multiple processors and additional hardware.
+Complex design — synchronization and communication between processors are required.
+Memory contention — processors may compete for access to shared memory.
+Software complexity — programs need to be designed to take advantage of parallel processing.
+Multiprocessor vs Multicomputer
+Multiprocessor	Multicomputer
+Multiple CPUs in one system	Multiple independent computers
+Usually shares main memory	Each computer generally has its own memory
+Tightly coupled	Loosely coupled
+Communication through shared memory/system interconnect	Communication through a network/interconnect
+⭐ RGPV Exam Definition
+
+A multiprocessor system is a computer system having two or more processors that operate concurrently and share common resources such as memory and I/O devices to improve performance and reliability.
+
+🔥 Remember for Exam
+
+Multiprocessor = Multiple CPUs + Shared Resources + Parallel Processing
