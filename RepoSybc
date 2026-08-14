@@ -1,0 +1,14 @@
+
+I’ll inspect the starter app, then build the BlockBlueprint dashboard around the requested GitHub-analysis workflow and verify it in the running app.
+
+Plan
+Inspect starter app structure and dependencies
+Build BlockBlueprint dashboard and interactive analysis flow
+Run build and verify the UI in the browser
+Plan completed
+Open details
+I built BlockBlueprint, a developer-blueprint dashboard for analyzing public GitHub repositories, following the dark terminal aesthetic from your spec.
+
+What's on the page
+
+Repo intake bar — paste any public GitHub URL and it calls the GitHub REST API to pull live metadata (stars, forks, description, last push); invalid URLs show an inline error and a terminal-style > FETCHI
