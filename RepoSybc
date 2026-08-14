@@ -12,3 +12,14 @@ I built BlockBlueprint, a developer-blueprint dashboard for analyzing public Git
 What's on the page
 
 Repo intake bar — paste any public GitHub URL and it calls the GitHub REST API to pull live metadata (stars, forks, description, last push); invalid URLs show an inline error and a terminal-style > FETCHI
+line while it works.
+Sidebar — Overview, Blueprint, Files, Dependencies, Security, AI Copilot, with a live "analysis synced" status.
+Overview — AI-generated project summary, a composite Project Health score (86/100) with sub-scores for Code Quality / Security / Dependencies / Docs, repo signals (stars/forks/contributors + language breakdown), a "what should I fix first" prioritized list, and expandable static-analysis issues ranked by severity.
+Blueprint — plain-English architecture explanation plus a derived Frontend → API → Database diagram, detected stack, run commands, and runtime requirements.
+Files — interactive file tree (folders expand/collapse) with an AI explanation panel and code preview for the selected file.
+Dependencies — package health summary, per-dependency status (current vs. update), and a setup checklist.
+Security — composite score, secret-scan banner (matches masked, never shown), vulnerability/config grid, and hardening tips.
+AI Copilot — chat interface with suggested questions and answers that cite actual file paths, plus a context-window panel showing what's indexed.
+Design — near-black background, neon green/cyan/amber/red status colors, sharp corners, thin borders, monospace for code/paths, and a blinking-cursor scanner animation during analysis. Fully responsive down to mobile.
+
+One caveat: no dev server was running in this environment, so I verified via the production build (which passes cleanly) rather than a live browser. The GitHub metadata lookup is real; the deeper analysis panels use representative demo data to showcase the full dashboard.
