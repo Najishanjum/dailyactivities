@@ -96,3 +96,6 @@ A multiprocessor system is a computer system having two or more processors that 
 🔥 Remember for Exam
 
 Multiprocessor = Multiple CPUs + Shared Resources + Parallel Processing
+
+
+So the backend, retrieval and Copilot logic are in place, but no UI is rendered yet — the preview still shows the placeholder page. Once credits are back, the next step is the fonts/head, landing page, dashboard, and Copilot chat UI, then an end-to-end run.
