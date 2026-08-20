@@ -1,0 +1,1033 @@
+🌙 Eid Milad-un-Nabi 2026 Badge Generator
+
+Build a production-ready, responsive bilingual web application called “Milad Badge 2026” that allows users to create personalized Eid Milad-un-Nabi ﷺ badges.
+
+The event date is:
+
+26 August 2026
+
+The application must support both:
+
+English 🇬🇧
+Urdu اردو
+
+The primary purpose is to allow users to enter their personal information, upload their photograph, select an Eid Milad-un-Nabi badge template, preview the personalized badge in real time, and download/share the final badge.
+
+1. PRODUCT VISION
+
+Create a beautiful, premium Islamic-themed badge generator.
+
+The website should feel:
+
+Elegant
+Spiritual
+Modern
+Professional
+Mobile-first
+Easy to use
+Fast
+Shareable
+
+Avoid making it look like a generic form website.
+
+The visual identity should combine:
+
+Islamic geometric patterns
+Crescent moon
+Stars
+Mosque silhouettes
+Elegant gold accents
+Deep emerald/green
+Cream/ivory
+Subtle gradients
+Urdu calligraphy
+Premium card layouts
+
+The badge should look good when shared on:
+
+Instagram
+WhatsApp
+Facebook
+X
+Telegram
+Personal profile pictures
+Stories
+2. BRANDING
+
+Application name:
+
+Milad Badge 2026
+
+Primary tagline:
+
+Create Your Milad Badge ﷺ
+
+Urdu tagline:
+
+اپنا میلاد بیج بنائیں ﷺ
+
+Optional secondary tagline:
+
+Celebrate • Personalize • Share
+
+Urdu:
+
+جشن منائیں • اپنی شناخت شامل کریں • شیئر کریں
+
+3. DATE
+
+Display:
+
+26 August 2026
+
+Urdu:
+
+26 اگست 2026
+
+Use the exact date throughout the application.
+
+Do not dynamically change this date.
+
+4. TECH STACK
+
+Use the following stack unless there is a strong technical reason to change something:
+
+Frontend
+Next.js
+TypeScript
+React
+Tailwind CSS
+Framer Motion
+Lucide React
+Badge rendering
+
+Prefer:
+
+Fabric.js
+
+or another reliable browser-side canvas library.
+
+The badge must render as a canvas/image so that users can download a high-resolution PNG.
+
+Backend
+
+Use Next.js API routes/server actions where required.
+
+Database
+
+Use Firebase Firestore if persistent data is required.
+
+Image storage
+
+Use Firebase Storage or Cloudinary.
+
+The application should still work in a demo/development environment without requiring Firebase configuration.
+
+Deployment
+
+Optimize for:
+
+Vercel
+
+5. IMPORTANT ARCHITECTURE REQUIREMENT
+
+Do NOT hard-code every badge individually.
+
+Build a reusable:
+
+Template Engine
+
+The application should allow multiple templates to use the same user data.
+
+Example:
+
+User Data
+    ↓
+Template Engine
+    ↓
+Selected Template
+    ↓
+Canvas Renderer
+    ↓
+Live Preview
+    ↓
+HD Export
+
+Each template should define:
+
+Background
+Decorative elements
+Logo
+Heading
+Urdu text
+English text
+Photo position
+Photo size
+Name position
+Name typography
+Instagram position
+Location position
+Date position
+Optional QR code position
+6. USER FLOW
+
+The complete user journey should be:
+
+Landing Page
+      ↓
+Choose Language
+      ↓
+Create Badge
+      ↓
+Enter Information
+      ↓
+Upload Photo
+      ↓
+Select Template
+      ↓
+Live Preview
+      ↓
+Customize
+      ↓
+Generate Badge
+      ↓
+Download / Share
+
+The flow must be extremely simple.
+
+A first-time user should be able to create a badge in less than 1–2 minutes.
+
+7. LANDING PAGE
+
+Create a premium hero section.
+
+Hero heading:
+
+Create Your Eid Milad-un-Nabi ﷺ Badge
+
+Urdu:
+
+اپنا عید میلاد النبی ﷺ بیج بنائیں
+
+Subheading:
+
+Personalize your Milad badge with your name, photo and Instagram identity.
+
+Urdu:
+
+اپنے نام، تصویر اور انسٹاگرام شناخت کے ساتھ اپنا خصوصی میلاد بیج بنائیں۔
+
+Primary CTA:
+
+Create My Badge
+
+Urdu:
+
+میرا بیج بنائیں
+
+Secondary CTA:
+
+View Templates
+
+Urdu:
+
+ٹیمپلیٹس دیکھیں
+
+8. HERO VISUAL
+
+Show a large example badge on the right/center.
+
+Add subtle:
+
+Crescent
+Stars
+Islamic geometric pattern
+Glow
+Floating particles
+
+Use Framer Motion for subtle animation.
+
+Do NOT over-animate.
+
+The website must remain elegant.
+
+9. EVENT INFORMATION
+
+Create a section displaying:
+
+Eid Milad-un-Nabi ﷺ
+
+26 August 2026
+
+Include:
+
+Crescent icon
+Islamic decorative pattern
+Short celebration message
+
+English:
+
+Celebrating the blessed birth of Prophet Muhammad ﷺ
+
+Urdu:
+
+حضور اکرم حضرت محمد ﷺ کی ولادتِ باسعادت کی خوشی میں
+
+10. CREATE BADGE FORM
+
+Create a multi-step or clean single-page form.
+
+Recommended steps:
+
+Step 1 — Personal Information
+
+Fields:
+
+Full Name
+
+Placeholder:
+
+Enter your name
+
+Urdu:
+
+اپنا نام درج کریں
+
+Required.
+
+Step 2 — Social Identity
+
+Field:
+
+Instagram Username
+
+Placeholder:
+
+@yourusername
+
+Required.
+
+Automatically normalize input:
+
+If user enters:
+
+najish_anjum
+
+display:
+
+@najish_anjum
+
+If user enters:
+
+@najish_anjum
+
+do not create:
+
+@@najish_anjum
+
+Step 3 — Location
+
+Optional field:
+
+City / Location
+
+Example:
+
+Jabalpur, India
+
+Urdu:
+
+جبلپور، بھارت
+
+Allow users to skip this field.
+
+Step 4 — Photo
+
+Allow user to:
+
+Upload image
+Drag and drop
+Take photo on supported mobile devices
+Replace image
+Remove image
+
+Supported:
+
+JPG
+JPEG
+PNG
+WEBP
+
+Maximum file size:
+
+5 MB.
+
+Show clear error messages for invalid files.
+
+11. PHOTO EDITOR
+
+After uploading a photo, provide:
+
+Circular crop
+Square crop
+Rounded rectangle crop
+Zoom
+Pan
+Rotate
+Reset
+
+The photo must automatically fit the selected template.
+
+The user should be able to reposition the image.
+
+For mobile:
+
+Use touch gestures if practical.
+
+12. TEMPLATE SELECTOR
+
+Create a template selection area.
+
+Initial templates:
+
+Template 01 — Royal Green
+
+Deep emerald background.
+
+Gold crescent.
+
+Elegant Islamic pattern.
+
+Large circular photo.
+
+Gold typography.
+
+Template 02 — Noor
+
+Cream/ivory background.
+
+Green Islamic ornamentation.
+
+Minimal gold details.
+
+Premium elegant style.
+
+Template 03 — Emerald Night
+
+Dark green/black gradient.
+
+Golden stars.
+
+Large crescent.
+
+Modern typography.
+
+Template 04 — Traditional Urdu
+
+Strong Urdu calligraphy.
+
+Traditional Islamic decorative border.
+
+Large name.
+
+Photo integrated into the design.
+
+Template 05 — Modern Social
+
+Modern badge designed specifically for:
+
+Instagram profile
+WhatsApp status
+Social sharing
+
+Large photo.
+
+Large username.
+
+Minimal design.
+
+13. TEMPLATE CARDS
+
+Each template card should display:
+
+Mini preview
+Template name
+Select button
+
+Selected template must have a clear visual indicator.
+
+Example:
+
+✓ Selected
+
+Do not make the interface confusing.
+
+14. BADGE CONTENT
+
+The badge should support the following dynamic values:
+
+EID MILAD-UN-NABI ﷺ
+
+26 AUGUST 2026
+
+[USER PHOTO]
+
+[USER NAME]
+
+@INSTAGRAM_USERNAME
+
+[LOCATION]
+
+Urdu version:
+
+عید میلاد النبی ﷺ
+
+۲۶ اگست ۲۰۲۶
+
+[USER PHOTO]
+
+[USER NAME]
+
+@INSTAGRAM_USERNAME
+
+[LOCATION]
+
+Use proper Urdu typography.
+
+The Urdu layout must be:
+
+RTL
+
+English layout:
+
+LTR
+
+15. CUSTOM LOCATION EXAMPLE
+
+The system must support custom text such as:
+
+گلاب پور سسوا کٹائیا، نیپال
+
+Do not hard-code this location.
+
+It must come from the user's input.
+
+16. LIVE PREVIEW
+
+As the user types:
+
+Name updates immediately.
+Instagram username updates immediately.
+Location updates immediately.
+Photo updates immediately.
+Template changes immediately.
+
+No page refresh.
+
+The preview should look exactly like the exported badge.
+
+17. PREVIEW PANEL
+
+Desktop:
+
+Use two-column layout:
+
+LEFT
+Form
+
+RIGHT
+Live Badge Preview
+
+Mobile:
+
+Form
+↓
+Preview
+
+Make the preview sticky on desktop if practical.
+
+18. CUSTOMIZATION
+
+Provide an optional customization section.
+
+Controls:
+
+Text
+Name size
+Name position
+Name alignment
+Photo
+Zoom
+Position
+Shape
+Theme
+
+Allow limited theme variations:
+
+Emerald
+Gold
+Cream
+Midnight
+
+Do not expose too many complicated controls.
+
+The main goal is simplicity.
+
+19. QR CODE
+
+Add an optional:
+
+Instagram QR Code
+
+If enabled:
+
+Generate a QR code pointing to:
+
+https://instagram.com/USERNAME
+
+The QR code should appear on the badge.
+
+Allow:
+
+Show QR Code
+
+toggle.
+
+If Instagram username is empty, disable the QR feature.
+
+20. DOWNLOAD
+
+Primary button:
+
+Download Badge
+
+Urdu:
+
+بیج ڈاؤن لوڈ کریں
+
+Export as:
+
+PNG
+
+The exported image should be high quality.
+
+Recommended output:
+
+1080 × 1350
+
+for social-media portrait badges.
+
+Also consider:
+
+1080 × 1080
+
+for square badges.
+
+Allow the template to define its export dimensions.
+
+21. HIGH-QUALITY EXPORT
+
+Do not simply screenshot the HTML page.
+
+Render the actual canvas at high resolution.
+
+Use a rendering scale such as:
+
+2x
+
+or
+
+3x
+
+when appropriate.
+
+The downloaded badge must be sharp.
+
+22. SHARE FUNCTIONALITY
+
+After generating the badge, display:
+
+Download
+
+Share
+
+Create Another
+
+For supported browsers, use Web Share API.
+
+Example:
+
+Share Badge
+
+Possible share targets:
+
+WhatsApp
+Instagram
+Facebook
+X
+Telegram
+
+Do not claim direct Instagram image posting unless the required API integration actually exists.
+
+For Instagram:
+
+Provide:
+
+Download for Instagram
+
+and optionally:
+
+Open Instagram
+
+23. WHATSAPP SHARE
+
+Generate a WhatsApp share URL containing a message such as:
+
+I created my Eid Milad-un-Nabi ﷺ badge!
+
+26 August 2026 🌙
+
+Do not automatically upload the generated image to WhatsApp.
+
+The user can download the image and attach it.
+
+24. LANGUAGE SYSTEM
+
+Implement a proper translation system.
+
+Do NOT duplicate components for Urdu and English.
+
+Use translation dictionaries.
+
+Example:
+
+/locales/en.json
+/locales/ur.json
+
+English:
+
+{
+  "createBadge": "Create My Badge",
+  "fullName": "Full Name",
+  "instagram": "Instagram Username",
+  "download": "Download Badge"
+}
+
+Urdu:
+
+{
+  "createBadge": "میرا بیج بنائیں",
+  "fullName": "پورا نام",
+  "instagram": "انسٹاگرام صارف نام",
+  "download": "بیج ڈاؤن لوڈ کریں"
+}
+25. RTL SUPPORT
+
+When Urdu is selected:
+
+Set:
+
+dir="rtl"
+
+When English is selected:
+
+Set:
+
+dir="ltr"
+
+The entire UI should adapt.
+
+Important:
+
+Do not simply reverse the English interface.
+
+Properly position:
+
+labels
+buttons
+icons
+form fields
+preview
+navigation
+typography
+26. URDU FONT
+
+Use a high-quality Urdu-compatible web font.
+
+Potential choices:
+
+Noto Nastaliq Urdu
+Noto Naskh Arabic
+Jameel Noori Nastaleeq if legally/licensed appropriately
+
+Use fallback fonts.
+
+Make sure the exported canvas correctly renders Urdu.
+
+Test Urdu rendering specifically inside the canvas.
+
+27. TYPOGRAPHY
+
+English:
+
+Use modern fonts such as:
+
+Inter
+Poppins
+Space Grotesk
+
+Urdu:
+
+Use:
+
+Noto Nastaliq Urdu
+Noto Naskh Arabic
+
+The badge typography should feel premium.
+
+28. DESIGN SYSTEM
+
+Primary visual colors:
+
+Emerald Green
+#0B5D3B
+
+Dark Green
+#063C29
+
+Gold
+#D4AF37
+
+Cream
+#F8F1DF
+
+White
+#FFFFFF
+
+Dark
+#07130F
+
+Use gradients carefully.
+
+Do not make every section heavily glowing.
+
+29. DECORATIVE ELEMENTS
+
+Create reusable decorative components:
+
+Crescent
+Stars
+Islamic geometric patterns
+Mosque silhouette
+Gold border
+Ornamental corners
+Arabic/Urdu calligraphy decoration
+
+These should be reusable by templates.
+
+30. RESPONSIVE DESIGN
+
+Must work perfectly on:
+
+iPhone
+Android phones
+Tablets
+Laptops
+Desktop
+Large monitors
+
+Minimum supported width:
+
+320px.
+
+Pay special attention to:
+
+form spacing
+image upload
+canvas preview
+buttons
+Urdu RTL layout
+31. MOBILE EXPERIENCE
+
+On mobile:
+
+Header:
+
+Logo                 Language
+
+Then:
+
+Create Badge
+
+Form should use full width.
+
+Preview should appear below the form.
+
+Primary CTA should be large and easy to tap.
+
+Use:
+
+min-height: 48px
+
+for important touch targets.
+
+32. HEADER
+
+Desktop:
+
+Milad Badge 2026
+
+Home
+Create Badge
+Templates
+About
+
+[English / اردو]
+
+Mobile:
+
+Use hamburger navigation.
+
+33. FOOTER
+
+Include:
+
+Milad Badge 2026
+
+Eid Milad-un-Nabi ﷺ
+
+26 August 2026
+
+Links:
+
+Home
+Create Badge
+Templates
+Privacy
+Terms
+
+Optional:
+
+Built with ❤️ for the community
+
+34. DATA PRIVACY
+
+User photos are sensitive personal content.
+
+The application should clearly explain:
+
+Why the image is uploaded
+Whether it is stored
+Whether it is deleted
+Whether badges are public
+
+Default behavior should preferably avoid permanent photo storage unless necessary.
+
+If canvas generation can happen entirely client-side, prefer that.
+
+Add a privacy note:
+
+Your photo is used only to generate your badge.
+
+Only make this claim if the implementation actually guarantees it.
+
+35. OPTIONAL NO-STORAGE MODE
+
+Prefer implementing badge generation client-side.
+
+Ideal flow:
+
+Photo
+ ↓
+Browser
+ ↓
+Canvas
+ ↓
+Badge
+ ↓
+Download
+
+No server upload required for basic badge generation.
+
+This improves:
+
+Privacy
+Speed
+Cost
+Scalability
+36. OPTIONAL DATABASE
+
+If analytics are required, store only non-sensitive information such as:
+
+templateId
+language
+createdAt
+downloaded
+
+Avoid storing the user's photo unless explicitly required.
+
+Do not store unnecessary personal information.
+
+37. ERROR HANDLING
+
+Handle:
+
+Missing name
+Invalid Instagram username
+Unsupported image
+Image too large
+Canvas rendering failure
+Download failure
+Unsupported browser
+QR generation failure
+
+Display friendly messages.
+
+Example:
+
+Please enter your name first.
+
+Urdu:
+
+براہ کرم پہلے اپنا نام درج کریں۔
+
+38. FORM VALIDATION
+
+Name:
+
+Required.
+
+Minimum:
+
+2 characters.
+
+Maximum:
+
+50 characters.
+
+Instagram:
+
+Optional/required according to product configuration.
+
+Normalize:
+
+username
+@username
+
+to:
+
+@username
+
+Do not allow spaces.
+
+Location:
+
+Optional.
+
+Maximum:
+
+100 characters.
+
+add this 1st suggest image as a background and 2nd image as a font style of the top in the website
+
+and make this before wraping and loss credit
