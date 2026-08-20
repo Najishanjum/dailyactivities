@@ -1,0 +1,217 @@
+Build a **premium, modern, elegant bilingual Eid Milad-un-Nabi ﷺ Badge Generator** website for **26 August 2026**.
+
+### 🎨 Design Direction
+
+Create a luxurious Islamic aesthetic:
+
+* Deep emerald green
+* Soft cream/ivory
+* Elegant gold accents
+* Subtle Islamic geometric patterns
+* Crescent moon and stars
+* Premium Urdu calligraphy
+* Minimal glassmorphism
+* Smooth Framer Motion animations
+* Clean typography
+* Spacious, uncluttered UI
+
+The design should feel **premium, spiritual, modern and share-worthy**, not like a basic form website.
+
+### 🌙 Landing Page
+
+Hero:
+
+**Eid Milad-un-Nabi ﷺ**
+
+**26 August 2026**
+
+Subtitle:
+
+**Create your personalized Milad badge**
+
+Urdu:
+
+**اپنا خصوصی میلاد بیج بنائیں ﷺ**
+
+Primary button:
+
+**Create My Badge**
+
+Add a beautiful floating preview of the generated badge.
+
+---
+
+### 🪪 Badge Creator
+
+Create a simple 3-step experience:
+
+**1. Your Details**
+
+* Name
+* Instagram username
+* Location (optional)
+* Profile photo
+
+**2. Choose Design**
+
+Show 4–5 premium badge templates.
+
+**3. Preview & Download**
+
+Show a live badge preview and allow:
+
+* Edit
+* Download PNG
+* Share
+* Create Another
+
+---
+
+### 📸 Photo
+
+Allow users to:
+
+* Upload photo
+* Crop
+* Zoom
+* Reposition
+* Replace
+
+Automatically fit the photo into the selected badge template.
+
+---
+
+### ✨ Badge Template
+
+Create dynamic templates rather than hard-coded designs.
+
+Each template should automatically place:
+
+```text
+EID MILAD-UN-NABI ﷺ
+
+26 AUGUST 2026
+
+[PHOTO]
+
+[NAME]
+
+@INSTAGRAM
+
+[LOCATION]
+```
+
+Urdu mode:
+
+```text
+عید میلاد النبی ﷺ
+
+۲۶ اگست ۲۰۲۶
+
+[تصویر]
+
+[نام]
+
+@انسٹاگرام
+
+[مقام]
+```
+
+Support custom Urdu text such as:
+
+**گلاب پور سسوا کٹائیا، نیپال**
+
+---
+
+### 🌐 Bilingual
+
+Support:
+
+**English / اردو**
+
+When Urdu is selected:
+
+* Full RTL layout
+* Proper Urdu font
+* Urdu badge text
+* RTL form
+* RTL navigation
+
+Use a proper Urdu font such as **Noto Nastaliq Urdu**.
+
+---
+
+### 🖼️ Templates
+
+Create 5 beautiful initial styles:
+
+1. **Royal Emerald** — green + gold
+2. **Noor** — cream + emerald
+3. **Midnight** — dark green + gold stars
+4. **Traditional** — Urdu calligraphy + Islamic ornament
+5. **Social** — modern Instagram-friendly design
+
+Make the template system reusable so new designs can be added easily.
+
+---
+
+### 📥 Export
+
+Generate a high-quality PNG.
+
+Default social size:
+
+**1080 × 1350**
+
+Also support:
+
+**1080 × 1080**
+
+The exported image must match the live preview exactly.
+
+---
+
+### 📱 Sharing
+
+After generation:
+
+**Download Badge**
+
+**Share Badge**
+
+**Create Another**
+
+Support Web Share API and WhatsApp sharing where available.
+
+---
+
+### 🛠️ Tech Stack
+
+Use:
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Fabric.js or Canvas
+* Lucide Icons
+
+Prefer client-side image processing for privacy.
+
+No login should be required.
+
+Make it fully responsive for mobile, tablet and desktop.
+
+---
+
+### 🚀 Final Experience
+
+The complete flow should feel effortless:
+
+**Landing → Create → Enter Details → Upload Photo → Choose Template → Live Preview → Download**
+
+Make the final UI **minimal, premium, Islamic and visually impressive**, with the badge itself being the main visual focus.
+
+Do not create unnecessary dashboards, complicated forms, excessive animations, or generic SaaS styling.
+
+Build a **real working application**, not just a mockup.
