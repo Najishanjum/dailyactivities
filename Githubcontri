@@ -1,0 +1,162 @@
+I want to add a premium GitHub Contribution Streak section to my developer portfolio.
+
+Use the attached reference image as the visual inspiration. Recreate the same overall concept, but DO NOT copy it pixel-for-pixel. Adapt it to my existing portfolio's design system.
+
+SECTION: GITHUB CONTRIBUTION MATRIX
+
+Create a sophisticated GitHub activity dashboard/card showing my real GitHub contribution activity.
+
+My GitHub username:
+Najishanjum
+
+The section should include:
+
+1. HEADER
+- Small terminal/coding-style icon.
+- Title: "REPOSITORIES COMMIT MATRIX"
+- Display total commits dynamically, e.g. "256 COMMITS"
+- Display my GitHub ID on the right:
+  "@NAJISHANJUM"
+- Add a "SYNC" button with a refresh icon.
+- Clicking SYNC should fetch/reload the latest GitHub contribution data.
+
+2. CONTRIBUTION HEATMAP
+Create a GitHub-style contribution calendar, but with a more futuristic developer-dashboard aesthetic.
+
+Requirements:
+- Show approximately the last 12 months.
+- Month labels across the top: JUN, JUL, AUG, SEP, etc.
+- Weekday labels on the left: MON, WED, FRI.
+- Each day should be represented by a small square.
+- Use contribution intensity:
+  - Empty = no contribution
+  - Level 1 = low
+  - Level 2 = medium-low
+  - Level 3 = medium-high
+  - Level 4 = high
+- Use subtle green/cyan tones that match the existing portfolio theme.
+- Keep the grid clean, compact, and responsive.
+- On hover, show a tooltip such as:
+  "August 24, 2026 — 7 contributions"
+- Clicking a day can optionally show additional contribution details.
+
+3. INTERACTION
+Add:
+- Hover animation on contribution cells.
+- Slight glow for high-contribution days.
+- Tooltip with date + contribution count.
+- Smooth transitions.
+- SYNC button should have a subtle rotation/refresh animation.
+- Do not make the animation excessive.
+
+4. ANALYTICS / HIGHLIGHTS
+Below the contribution grid, add a subtle divider and three statistics:
+
+🔥 STREAK
+[ current streak ] DAYS
+
+🏆 LONGEST
+[ longest streak ] DAYS
+
+↗ GITHUB ID
+@NAJISHANJUM
+
+Calculate the current streak and longest streak dynamically from the contribution data.
+
+5. FILTER / LEGEND
+Add a small contribution intensity legend on the right:
+
+LESS  □ □ □ □ □  MORE
+
+Use progressively stronger shades for the squares.
+
+6. DESIGN
+The design should feel like:
+- Premium developer portfolio
+- Futuristic
+- Minimal
+- Technical
+- Dark/cyber aesthetic
+- Professional rather than flashy
+- Similar visual density to a terminal / developer analytics dashboard
+
+Use:
+- Thin borders
+- Subtle grid lines
+- Monospace typography for technical information
+- Small uppercase labels
+- Rounded or slightly sharp corners
+- Soft glow effects
+- Minimal icons
+
+Do not use huge text.
+
+7. RESPONSIVENESS
+Desktop:
+- Full-width contribution matrix card.
+- Heatmap should have enough horizontal space to display the entire year.
+
+Tablet:
+- Scale the grid appropriately.
+
+Mobile:
+- Make the contribution grid horizontally scrollable instead of squeezing it.
+- Keep the statistics readable.
+- Do not break the page layout.
+
+8. REAL GITHUB DATA
+IMPORTANT:
+Do not use fake/static contribution numbers in the final implementation.
+
+Use GitHub's API or an appropriate contribution-data source to retrieve:
+- Daily contribution count
+- Total contributions
+- Current streak
+- Longest streak
+- Contribution levels
+
+If GitHub's public API does not directly provide the contribution calendar, implement an appropriate API/backend approach rather than exposing a GitHub token in the frontend.
+
+Never expose a GitHub personal access token in client-side code.
+
+Use my GitHub username:
+Najishanjum
+
+9. EXISTING PORTFOLIO INTEGRATION
+Integrate this section into my existing portfolio without changing the rest of the website unnecessarily.
+
+First inspect the existing:
+- Color palette
+- Typography
+- Components
+- Spacing
+- Animations
+- Responsive breakpoints
+
+Then make the GitHub contribution section feel native to the portfolio.
+
+10. CODE QUALITY
+Use reusable components such as:
+
+GitHubActivity
+ContributionGrid
+ContributionCell
+ContributionTooltip
+GitHubStats
+SyncButton
+
+Keep the implementation clean and maintainable.
+
+Avoid unnecessary dependencies.
+
+Add loading and error states:
+- "SYNCING GITHUB DATA..."
+- "GITHUB DATA UNAVAILABLE"
+- "LAST SYNC: ..."
+
+If the API fails, show a graceful fallback instead of breaking the portfolio.
+
+REFERENCE:
+Use the attached image as the visual reference for the contribution matrix layout, statistics placement, spacing, and overall dashboard structure.
+
+The final result should look like a premium custom GitHub analytics section designed specifically for a developer portfolio, not like the default GitHub contribution graph.
