@@ -105,3 +105,5 @@ Connect me with people into:
 
 Builders, engineers, tech people — say hi 👋
   
+India Blockchain Week 2026
+01 Nov, 2026 - 02 Nov, 2026Fairmont Mumbai
