@@ -16,5 +16,11 @@ haa heein
 heein
 election
 
+I have made the requested updates to both the Experience section and the Footer:
 
+1. Experience Section — Full Image View & Scroll Overlap
+Eliminated Image Cropping: Updated the gallery thumbnails to use object-fit: contain within framed containers instead of harsh 4:3 center crops. All certificates, badges, posters, and event photos are now fully visible without being cut off.
+Proper Viewport Fitting: Streamlined the card inner padding, big numbers, and typography so that each card—including all text and gallery images—fits cleanly in view on both laptops and larger monitors.
+Scroll Buffer Before Overlapping: Replaced the abrupt 2px spacing with a 40vh scroll travel range (marginBottom: 40vh). When you scroll to any experience card, it locks in place and remains 100% visible on screen, allowing you to view and interact with all images in full before the next card begins to slide up and overlap it.
+Adaptive Gallery Grids: Implemented responsive column formatting tailored to the image count (e.g. 1-photo highlight, 2-column, 4-column, and 5-column single-row layouts).
 
