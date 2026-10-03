@@ -82,7 +82,10 @@ Disadvantages
 High cost — requires multiple processors and additional hardware.
 Complex design — synchronization and communication between processors are required.
 Memory contention — processors may compete for access to shared memory.
-Software complexity — programs need to be designed to take advantage of parallel processing.
+Software complexity 
+juust rm and this is importnt for rgpv exam topic 
+
+— programs need to be designed to take advantage of parallel processing.
 Multiprocessor vs Multicomputer
 Multiprocessor	Multicomputer
 Multiple CPUs in one system	Multiple independent computers
