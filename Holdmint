@@ -4,3 +4,13 @@ Landing Page: http://localhost:3000/ (Interactive split slider and preset compar
 Guided 2-Minute Demo: http://localhost:3000/demo (Simulate payment, withdraw spend, attempt blocked tax release, and release to approved payee)
 Dashboard: http://localhost:3000/app (Live financial overview, donuts, tax readiness ring, income timeline)
 Public Client Invoice: http://localhost:3000/pay/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU (Dynamic QR code, confidential worker split protection)
+Your local server is up and running! Click the link below to open:
+
+👉 http://localhost:3000
+
+Quick Navigation Links:
+Landing Page & Live Simulator: http://localhost:3000/
+Financial Dashboard: http://localhost:3000/app
+Guided 2-Minute Demo: http://localhost:3000/demo
+Onboarding Wizard: http://localhost:3000/app/onboarding
+Sample Client Payment Page: http://localhost:3000/pay/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU
