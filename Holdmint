@@ -1,0 +1,6 @@
+Open http://localhost:3000:
+
+Landing Page: http://localhost:3000/ (Interactive split slider and preset comparison)
+Guided 2-Minute Demo: http://localhost:3000/demo (Simulate payment, withdraw spend, attempt blocked tax release, and release to approved payee)
+Dashboard: http://localhost:3000/app (Live financial overview, donuts, tax readiness ring, income timeline)
+Public Client Invoice: http://localhost:3000/pay/7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU (Dynamic QR code, confidential worker split protection)
